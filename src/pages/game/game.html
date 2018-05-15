@@ -1,0 +1,21 @@
+<ion-content class="backgroundColor">
+  <div class="questionVideo center backgroundColor">
+    <iframe class="test" [src]="safeURL" frameborder="0" allowtransparency="true"></iframe>
+  <div class="center bold sub"> <br />{{sub}}</div>
+ 
+    <button class="answerButton" ion-button id="buttonOne" (click)="checkAnswers(1)">
+      {{answerOne}}
+    </button>
+    <button class="answerButton" ion-button id="buttonTwo" (click)="checkAnswers(2)">
+      {{answerTwo}}
+    </button>
+    <button class="answerButton" ion-button id="buttonThree" (click)="checkAnswers(3)">
+      {{answerThree}}
+    </button>
+    <button class="answerButton" ion-button id="buttonFour" (click)="checkAnswers(4)">
+      {{answerFour}}
+    </button>
+ 
+  </div>
+
+</ion-content>

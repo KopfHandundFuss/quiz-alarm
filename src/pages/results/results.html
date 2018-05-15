@@ -1,0 +1,23 @@
+
+
+<ion-content class="backgroundColor">
+
+  <br />
+  <br />
+  <div class="colorBlue center bold a">
+  <ion-icon name="md-flag" class="icons colorBlue"></ion-icon>
+<p class="center bold colorBlue resultFont"> Frage {{answeredQuestions}} von {{totalAnswers}}</p>
+  </div>
+  
+
+  <div class="colorBlue center bold a">
+    <ion-icon name="md-ribbon" class="icons center bold colorBlue"></ion-icon>
+    <p class="bold center colorBlue resultFont"> Richtig beantwortet: {{correctAnswers}}/{{answeredQuestions}}</p>
+    </div>
+    <button ion-button icon-only large class="nextButton" (click)="goToGame()">
+      <ion-icon name="arrow-forward"></ion-icon>
+    </button>
+    <button ion-button icon-only large class="credits-button" (click)="goToCredits()">
+      <ion-icon name="information"></ion-icon>
+    </button>
+</ion-content>

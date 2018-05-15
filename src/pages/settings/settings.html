@@ -1,0 +1,24 @@
+
+<ion-content padding class="backgroundColor">
+  <button class="backButton" ion-button large icon-only (click)="backToThemes()">
+    <ion-icon name="arrow-back"></ion-icon>
+  </button>
+  <button class="nextButton" ion-button large icon-only (click)="goToGame()">
+  <ion-icon name="arrow-forward"></ion-icon>
+  </button>
+  <br />
+  <br />
+  <p class="bold center colorBlue settingsFont">Schwierigkeitsgrad: <br />
+    <ion-icon (click)="levelOne()" class="icons" color="hand" name="star" id="levelOne"></ion-icon>
+    <ion-icon (click)="levelTwo()" class="icons" color="gray" name="star" id="levelTwo"></ion-icon>
+    <ion-icon (click)="levelThree()" class="icons" color="gray" name="star" id="levelThree"></ion-icon></p>
+
+  <div class="center bold">
+    <ion-label class="settingsFont" color="grips">Untertitel</ion-label>
+    <ion-icon class="icons" (click)="toggleSubtitles()" color="grips"  id="subtitle" name="md-closed-captioning"></ion-icon>
+
+  </div>
+  <button ion-button icon-only large class="credits-button" (click)="goToCredits()">
+    <ion-icon name="information"></ion-icon>
+  </button>
+</ion-content>

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\pages",
+    "\\src\\pages\\credits",
+    "\\src\\pages\\dummy",
+    "\\src\\pages\\end",
+    "\\src\\pages\\home",
+    "\\src\\pages\\results",
+    "\\src\\pages\\settings",
+    "\\src\\pages\\video-player"
+  ],
+  "SelectedNode": "\\config.xml",
+  "PreviewInSolutionExplorer": false
+}

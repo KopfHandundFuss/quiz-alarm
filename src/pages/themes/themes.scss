@@ -1,0 +1,39 @@
+page-themes {
+  
+}
+
+.backgroundTheme {
+  background-image: url("../assets/img/khf_zeichen.png");
+  background-repeat: no-repeat;
+  background-size: 55%;
+  top: 12%;
+  z-index: -999;
+}
+
+.titlerThemes {
+  color: #0aa6ce;
+  position: absolute;
+  top: 20%;
+  font-weight: 700;
+  left: 0;
+  font-size: 4em;
+  line-height: .98em;
+  margin-left: 1vw;
+}
+
+.togglePos {
+  position: absolute;
+  top: 18.5%;
+  left: 58%;
+  width: 42%;
+}
+
+.toggleTheme {
+  background-color: #0aa6ce;
+}
+
+.fontTheme {
+  background-color: #0aa6ce;
+  color: #fff;
+}
+

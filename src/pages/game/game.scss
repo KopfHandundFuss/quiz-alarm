@@ -1,0 +1,30 @@
+page-game {
+
+}
+.questionVideo {
+  height: 60%;
+}
+
+.sub {
+  background-color: #0aa6ce;
+  height: 15%;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.test {
+  height: 100%;
+  z-index: 7;
+}
+
+iframe {
+  min-width: 100%;
+  width: 100px;
+  *width: 100%;
+  z-index: 7;
+}
+
+.buttonGroup{
+  width:100%;
+}
