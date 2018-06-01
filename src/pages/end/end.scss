@@ -1,12 +1,29 @@
 page-end {
 
 }
+@media screen and (orientation:portrait) {
+  /* Portrait styles */
+  .endFont {
+    font-size: 115%;
+  }
 
-.endFont {
-  font-size: 115%;
+  .top{
+    position:center;
+    top:20%;
+    margin-top: 28%;
+  }
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+  /* Landscape styles */
+  /* show your content*/
+  .endFont {
+    font-size: 115%;
+  }
+
+  .top{
+    position:center;
+    top:20%;
+  }
 }
 
-.top{
-  position:center;
-  top:20%;
-}

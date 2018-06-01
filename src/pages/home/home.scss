@@ -1,13 +1,24 @@
 page-home {
-
+  @media screen and (orientation:portrait) {
+    /* Portrait styles */
+    .background {
+      background: url("../assets/imgs/splash.png");
+      background-size: 100% 60% !important;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  }
+  /* Landscape */
+  @media screen and (orientation:landscape) {
+    /* Landscape styles */
+    /* show your content*/
+    .background {
+      background: url("../assets/imgs/splash.jpg");
+      background-size: 100% 100% !important;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  }
 }
-.background {
-  background: url("../assets/imgs/splash.jpg");
-  background-size: 100% 100% !important;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-
-

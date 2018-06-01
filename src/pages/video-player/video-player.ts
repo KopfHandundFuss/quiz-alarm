@@ -8,9 +8,9 @@ import { CreditsPage } from '../credits/credits';
   templateUrl: 'video-player.html',
 })
 export class VideoPlayerPage {
-  
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    
+
   }
 
   ionViewDidLoad() {

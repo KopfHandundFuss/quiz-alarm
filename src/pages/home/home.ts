@@ -10,7 +10,7 @@ import { CreditsPage } from '../credits/credits';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-    
+
     this.goToRules();
   }
 

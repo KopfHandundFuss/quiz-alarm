@@ -2,10 +2,29 @@ page-game-answers {
 
 }
 
-.resultFont {
-  font-size: 105%;
-}
+@media screen and (orientation:portrait) {
+  /* Portrait styles */
+  .resultFont {
+    font-size: 105%;
+  }
 
-.a{
-  height:49%
+  .a1{
+    margin-top: 25%;
+    height:30%
+  }
+  .a2{
+    height:30%
+  }
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+  /* Landscape styles */
+  /* show your content*/
+  .resultFont {
+    font-size: 105%;
+  }
+
+  .a{
+    height:49%
+  }
 }

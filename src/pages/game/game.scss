@@ -1,30 +1,69 @@
 page-game {
 
 }
-.questionVideo {
-  height: 60%;
-}
+@media screen and (orientation:portrait) {
+  /* Portrait styles */
+  .questionVideo {
+    height: 65%;
+  }
 
-.sub {
-  background-color: #0aa6ce;
-  height: 15%;
-  color: white;
-  border: 2px solid white;
-  border-radius: 5px;
-}
+  .sub {
+    background-color: #0aa6ce;
+    //height: 15%;
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
 
-.test {
-  height: 100%;
-  z-index: 7;
-}
+  .test {
+    height: 100%;
+    z-index: 7;
+  }
 
-iframe {
-  min-width: 100%;
-  width: 100px;
-  *width: 100%;
-  z-index: 7;
-}
+  iframe {
+    min-width: 100%;
+    width: 100px;
+    *width: 100%;
+    z-index: 7;
+  }
 
-.buttonGroup{
-  width:100%;
+  .buttonGroup{
+    width:100%;
+  }
+
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+  /* Landscape styles */
+  /* show your content*/
+  .questionVideo {
+    height: 60%;
+  }
+
+  .sub {
+    background-color: #0aa6ce;
+    //height: 15%;
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+
+  .test {
+    height: 100%;
+    z-index: 7;
+  }
+
+  iframe {
+    min-width: 100%;
+    width: 100px;
+    *width: 100%;
+    z-index: 7;
+  }
+
+  .buttonGroup{
+    width:100%;
+  }
+
 }

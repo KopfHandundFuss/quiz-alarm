@@ -1,7 +1,18 @@
 page-settings {
-
+  @media screen and (orientation:portrait) {
+    /* Portrait styles */
+    .settingsFont {
+      font-size: 100%;
+      margin-top: 32%;
+    }
+  }
+  /* Landscape */
+  @media screen and (orientation:landscape) {
+    /* Landscape styles */
+    /* show your content*/
+    .settingsFont {
+      font-size: 120%;
+    }
+  }
 }
 
-.settingsFont {
-  font-size: 120%;
-}
